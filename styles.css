@@ -244,16 +244,15 @@ header {
     height: 80vh;
     border: 0;
     background-repeat: no-repeat;
+    background-position: center;
     border-bottom: 8px solid #222;
 }
 
 /* 1185 */
-@media  (max-width: 5000px){
+@media  (max-width: 5000px) {
     .our-story-card-title,.our-story-card-sub {
         font-size: 3.125rem;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
+        text-align:center ;
     }
     .our-story-card-sub {
         font-size: 1.630rem;
@@ -265,6 +264,7 @@ header {
         font-weight: 400;
         text-align: center;
         margin-left: -15em ;
+        padding-bottom: 14em;
     }
     .phone-img{
         background-image: url(./mobile-0819.jpg);
@@ -276,10 +276,85 @@ header {
         border-bottom: 8px solid #222;
     }
 }
-/*  */
+@media  (max-width: 1233px) {
+    .our-story-card-title,.our-story-card-sub {
+        font-size: 3.125rem;
+        text-align:center ;
+    }
+    .our-story-card-sub {
+        font-size: 1.630rem;
+        font-weight: 400;
+        text-align: center;
+        margin-left: 15em ;
+    }.our-story-card-text {
+        font-size: 1.625rem;
+        font-weight: 400;
+        text-align: center;
+        margin-left: -15em ;
+        padding-bottom: 14em;
+    }
+    .phone-img{
+        background-image: url(./mobile-0819.jpg);
+        max-width: 100%;
+        height: 70vh;
+        margin-top: 5em;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-bottom: 8px solid #222;
+    }
+}
+/* @media  (max-width: 1268px){
 
+    .our-story-card-title,.our-story-card-sub {
+        font-size: 3.125rem;
+        text-align: right;
+    }
+    .our-story-card-sub {
+        font-size: 1.630rem;
+        font-weight: 400;
+        text-align: right;
+        margin-right: 7em;
+        
+    }.our-story-card-text {
+        font-size: 1.625rem;
+        font-weight: 400;
+        text-align: center;
+        margin-left: -15em ;
+        padding-bottom: 14em;
+    }
+    .phone-img{
+        background-image: url(./mobile-0819.jpg);
+        max-width: 100%;
+        height: 70vh;
+        margin-top: 5em;
+        text-emphasis: none;
+        background-position: left;
+        background-repeat: no-repeat;
+        border-bottom: 8px solid #222;
+    }
+} */
+
+/*  */
+#fourth-slide{
+    border-bottom: 8px solid #222;
+    width: 90%;
+    text-align: left;
+    margin: 03.5rem;
+}
 .text8{
-    
+    font-size: 3.2rem;
+}
+.text9{
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-bottom: 5em;
+}
+@media  (max-width: 700px){
+    #fourth-slide{
+        text-align: center;
+        margin: 03.5rem;
+        
+    }
 }
 
 
