@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    transition:  0.3s;
+    color: #fff;
+    background-image: url(./bursts.svg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: 215%;
+}
+
+#background-image{
+    background-color: black;
+    background-image: linear-gradient(to top,rgba(0,0,0),rgba(0,0,0,0) 60%,rgba(0,0,0) 120%), url(./NG-en-20220307-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 116vh;
+    margin: -16.5em auto;
+    z-index: 1; 
+    border-bottom: 8px solid #222;
+}
+header {
+    position: relative;
+    margin: 03.5rem;
+    height: 100%;
+    margin-top: -1em;
+}
+
+.redButton {
+    background-color: #e50914;
+    line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1.2rem;
+    float: right;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-top: 4rem;
+}
+/*  */
+.text1{
+    color: #fff;
+    font-size: 42pt;
+    margin-top: -10em;
+}
+.text2{
+    color: #fff;
+    font-size: 26px;
+    font-weight: lighter;
+    margin-top: -2.1em;
+}
+.text3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.input-type{
+    height: 7vh;
+    width: 40%;
+    font-size: large;
+    cursor: text;
+}
+.button{
+    height: 7.9vh;
+    font-size:medium;
+    font-weight: 900;
+    color: #fff;
+    background-color: red;
+    cursor: pointer;
+    border: none;
+    text-align: left;
+    word-wrap: break-word;
+}
+@media (max-width: 565px){
+    #background-image{
+        background-color: black;
+        background-image: linear-gradient(to top,rgba(0,0,0),rgba(0,0,0,0) 60%,rgba(0,0,0) 120%), url(./NG-en-20220307-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 150vh;
+        z-index: 1; 
+    }
+    header {
+        position: relative;
+        margin: 03.5rem;
+        height: 100%;
+        margin-top: -1em;
+    }
+    
+    .redButton {
+        background-color: #e50914;
+        line-height: normal;
+        padding: 7px 17px;
+        font-weight: 400;
+        font-size: 1.2rem;
+        float: right;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 3px;
+        margin-top: 4rem;
+    }
+    /*  */
+    .text1{
+        color: #fff;
+        font-size: 42pt;
+        margin-top: -13.5em;
+    }
+    .text2{
+        color: #fff;
+        font-size: 26px;
+        font-weight: lighter;
+        margin-top: -2.1em;
+    }
+    .text3{
+        color: #fff;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    .input-type{
+        height: 7vh;
+        width: 80%;
+        font-size: large;
+        cursor: text;
+    }
+    .button{
+        height: 7.9vh;
+        margin: 10px;
+        font-size:medium;
+        font-weight: 900;
+        color: #fff;
+        background-color: red;
+        cursor: pointer;
+        border: none;
+        text-align: left;
+        word-wrap: break-word;
+    }
+}
+/*  */
+.text4{
+    font-size: 45px;
+    margin-top: 10em;
+    text-align: center;
+    flex-direction: column;
+
+}
+.tv-img{
+    background-image: url(./tv.png);
+    width: 100%;
+    height: 75vh;
+    background-repeat: no-repeat;
+    margin-top: -20rem;
+    background-position: center;
+    border-bottom: 8px solid #222;
+}
+@media (max-width: 1178px){
+    .text4{
+        font-size: 45px;
+        text-align: center;
+    }
+    
+}
+@media (max-width: 490px){
+    .text4{
+        font-size: 45px;
+        text-align: center;
+    }
+    .tv-img{
+        background-image: url(./tv.png);
+        width: 100%;
+        height: 75vh;
+        background-repeat: no-repeat;
+        margin-top: -22rem;
+        background-position: -5.5em center;
+        border-bottom: 8px solid #222;
+    }
+    
+}
+@media (max-width: 485px){
+    .text4{
+        font-size: 45px;
+        text-align: center;
+    }
+    .tv-img{
+        background-image: url(./tv.png);
+        width: 100%;
+        height: 75vh;
+        background-repeat: no-repeat;
+        margin-top: -22rem;
+        background-position: -5.5em center;
+        border-bottom: 8px solid #222;
+    }
+    
+}
