@@ -149,14 +149,18 @@ header {
     margin-top: 10em;
     text-align: center;
     flex-direction: column;
-
+}
+.text5{
+    margin-top: -3em;
+    text-align: center;
+    flex-direction: column;
 }
 .tv-img{
     background-image: url(./tv.png);
     width: 100%;
     height: 75vh;
     background-repeat: no-repeat;
-    margin-top: -20rem;
+    margin-top: -18rem;
     background-position: center;
     border-bottom: 8px solid #222;
 }
@@ -173,7 +177,7 @@ header {
         text-align: center;
     }
     .tv-img{
-        background-image: url(./tv.png);
+        background-image: url(./tv.png),url(./bursts.svg),url(./NG-en-20220307-popsignuptwoweeks-perspective_alpha_website_medium\ \(1\).jpg);
         width: 100%;
         height: 75vh;
         background-repeat: no-repeat;
@@ -189,12 +193,30 @@ header {
         text-align: center;
     }
     .tv-img{
-        background-image: url(./tv.png);
+        background-image: url(./tv.png),url(./bursts.svg),url(./NG-en-20220307-popsignuptwoweeks-perspective_alpha_website_medium\ \(1\).jpg);
         width: 100%;
         height: 75vh;
         background-repeat: no-repeat;
-        margin-top: -22rem;
-        background-position: -5.5em center;
+        background-size: 35em;
+        margin-top: -15rem;
+        background-position: center;
+        border-bottom: 8px solid #222;
+    }
+    
+}
+@media (max-width: 780px){
+    .text4{
+        font-size: 45px;
+        text-align: center;
+    }
+    .tv-img{
+        background-image: url(./tv.png),url(./bursts.svg),url(./NG-en-20220307-popsignuptwoweeks-perspective_alpha_website_medium\ \(1\).jpg);
+        width: 100%;
+        height: 75vh;
+        background-repeat: no-repeat;
+        background-size: 35em;
+        margin-top: -15rem;
+        background-position: center;
         border-bottom: 8px solid #222;
     }
     
