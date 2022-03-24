@@ -6,7 +6,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     transition:  0.3s;
     color: #fff;
-    background-image: url(./bursts.svg);
+    /* background-image: url(./bursts.svg); */
     background-position: center ;
     background-repeat: no-repeat;
     background-size: 215%;
@@ -68,14 +68,13 @@ header {
     cursor: text;
 }
 .button{
-    height: 7.9vh;
+    height: 7.8vh;
     font-size:medium;
     font-weight: 900;
     color: #fff;
     background-color: red;
     cursor: pointer;
     border: none;
-    text-align: left;
     word-wrap: break-word;
 }
 @media (max-width: 565px){
@@ -135,7 +134,7 @@ header {
         height: 7.9vh;
         margin: 10px;
         font-size:medium;
-        font-weight: 900;
+        font-weight: 200;
         color: #fff;
         background-color: red;
         cursor: pointer;
@@ -148,21 +147,23 @@ header {
 .text4{
     font-size: 45px;
     margin-top: 10em;
-    text-align: center;
-    flex-direction: column;
+    font-size: 3.125rem;
+    text-align: end;
 }
 .text5{
-    margin-top: -3em;
-    text-align: center;
-    flex-direction: column;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 4rem;
+    text-align: end;
 }
+
 .tv-img{
-    background-image: url(./tv.png);
+    background-image: url(./tv.png),url(./Annotation\ 2022-03-24\ 161604.jpg);
     width: 100%;
     height: 75vh;
     background-repeat: no-repeat;
     margin-top: -18rem;
-    background-position: center;
+    background-position: left;
     border-bottom: 8px solid #222;
 }
 @media (max-width: 1178px){
@@ -178,7 +179,7 @@ header {
         text-align: center;
     }
     .tv-img{
-        background-image: url(./tv.png),url(./bursts.svg);
+        background-image: url(./tv.png),url(./Annotation\ 2022-03-24\ 161604.jpg);
         width: 100%;
         height: 75vh;
         background-repeat: no-repeat;
@@ -192,9 +193,10 @@ header {
     .text4{
         font-size: 45px;
         text-align: center;
+        align-items: center;
     }
     .tv-img{
-        background-image: url(./tv.png),url(./bursts.svg);
+        background-image: url(./tv.png),url(./Annotation\ 2022-03-24\ 161604.jpg);
         width: 100%;
         height: 75vh;
         background-repeat: no-repeat;
@@ -211,7 +213,7 @@ header {
         text-align: center;
     }
     .tv-img{
-        background-image: url(./tv.png),url(./bursts.svg);
+        background-image: url(./tv.png),url(./Annotation\ 2022-03-24\ 161604.jpg);
         width: 100%;
         height: 75vh;
         background-repeat: no-repeat;
@@ -309,11 +311,14 @@ header {
 /*  */
 #fourth-slide{
     text-align: center;
-    margin: 03.5rem;
+    margin: 03.9rem;
     border-bottom: 8px solid #222;
+    
 }
 .text8{
     font-size: 3.2rem;
+    margin-top: -2.6em;
+    
 }
 .text9{
     font-size: 1.5rem;
@@ -329,19 +334,20 @@ header {
 /*  */
 .story-card-title {
     font-size: 3.125rem;
-    margin-top: -8em;
+    margin-top: -9em;
     margin-left: 25rem;
 }
 .story-card-sub {
     font-size: 1.630rem;
     font-weight: 400;
     text-align: center;
+   
 }
-.story-card-sub, .our-story-card {
+.our-story-card ,.story-card-sub{
     font-size: 1.625rem;
     font-weight: 400;
     text-align: center;
-    margin-left: 15rem;
+    margin-left: 19rem;
 }
 .children-img{
     background-image: url(./AAAABdFTpLmANuJpYneLq8L5m7CunMCi8e8Nl4y7xaPVWzG3IeoDoq17egTQAthApKg_4sdRWdwuR8KadWu1frjL3JQImpwq.png);
@@ -380,7 +386,7 @@ header {
         border-bottom: 8px solid #222;
     }
 }
-@media  (max-width: 1234px) {
+@media  (max-width: 1235px) {
     .story-card-title,.story-card-sub {
         font-size: 3.125rem;
         text-align:center ;
@@ -407,10 +413,134 @@ header {
         background-position: center;
         background-repeat: no-repeat;
         border-bottom: 8px solid #222;
+        padding-bottom: 14em;
     }
+    #whole{
+        margin-top: 18em;
+       }
+}
+/*  */
+footer{
+    word-wrap: break-word;
+    display: flex;
+    justify-content: center;
 }
 
-
+#list-items1{
+    padding-top: 4em;
+    color: #222;
+    font-weight: 700;
+    line-height: 3em;
+}
+.li{
+    line-height: 7em;
+}
+#list-items2{
+    padding-top: 4em;
+    color: #222;
+    font-weight: 700;
+    margin-left: 9em;
+    line-height: 3em;
+}
+#list-items3{
+    padding-top: 4em;
+    color: #222;
+    font-weight: 700;
+    margin-left: 9em;
+    line-height: 3em;
+}
+#list-items4{
+    padding-top: 4em;
+    color: #222;
+    font-weight: 700;
+    margin-left: 9em;
+    line-height: 3em;
+}
+@media  (max-width: 1041px) {
+    footer{
+        display: flex;
+        justify-content: center;
+        width: 90% auto;
+    }
+    
+    #list-items1{
+        padding-top: 4em;
+        color: #222;
+        font-weight: 700;
+        line-height: 3em;
+    }
+    .li{
+        line-height: 7em;
+    }
+    #list-items2{
+        padding-top: 4em;
+        color: #222;
+        font-weight: 700;
+        margin-left: 9em;
+        line-height: 3em;
+    }
+    #list-items3{
+        padding-top: 4em;
+        color: #222;
+        font-weight: 700;
+        margin-left: 9em;
+        line-height: 3em;
+    }
+    #list-items4{
+        padding-top: 4em;
+        color: #222;
+        font-weight: 700;
+        margin-left: 9em;
+        line-height: 3em;
+    }
+}
+@media  (max-width: 999px) {
+    footer{
+        display:block ;
+        justify-content: center; 
+        text-align: center;
+    }
+    #list-items1{
+        text-align: center;
+        justify-content: center;
+        padding-top: 4em;
+        color: #222;
+        font-weight: 700;
+        line-height: 3em;
+    }
+    .li{
+        line-height: 7em;
+    }
+    #list-items2{
+        margin-right: 8.5em ;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 4em;
+        color: #222;
+        font-weight: 700;
+        margin-left: 9em;
+        line-height: 3em;
+    }
+    #list-items3{
+        margin-right: 8.5em ;
+        text-align: center;
+        padding-top: 4em;
+        color: #222;
+        font-weight: 700;
+        margin-left: 9em;
+        line-height: 3em;
+    }
+    #list-items4{
+        margin-right: 8.5em ;
+        text-align: center;
+        padding-top: 4em;
+        color: #222;
+        font-weight: 700;
+        margin-left: 9em;
+        line-height: 3em;
+    }
+}
 
 
 
