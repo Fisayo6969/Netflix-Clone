@@ -336,17 +336,16 @@ header {
 
 /*  */
 #fourth-slide{
-    border-bottom: 8px solid #222;
-    width: 90%;
     text-align: left;
     margin: 03.5rem;
+    border-bottom: 8px solid #222;
 }
 .text8{
     font-size: 3.2rem;
 }
 .text9{
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 700;
     padding-bottom: 5em;
 }
 @media  (max-width: 700px){
