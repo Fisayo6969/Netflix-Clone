@@ -15,7 +15,7 @@ body{
 
 #background-image{
     background-color: black;
-    background-image: linear-gradient(to top,rgba(0,0,0),rgba(0,0,0,0) 60%,rgba(0,0,0) 120%), url(./NG-en-20220307-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-image: linear-gradient(to top,rgba(0,0,0),rgba(0,0,0,0) 60%,rgba(0,0,0) 120%), url(./NG-en-20220411-popsignuptwoweeks-perspective_alpha_website_small.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -80,7 +80,7 @@ header {
 @media (max-width: 565px){
     #background-image{
         background-color: black;
-        background-image: linear-gradient(to top,rgba(0,0,0),rgba(0,0,0,0) 60%,rgba(0,0,0) 120%), url(./NG-en-20220307-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+        background-image: linear-gradient(to top,rgba(0,0,0),rgba(0,0,0,0) 60%,rgba(0,0,0) 120%), url(./NG-en-20220411-popsignuptwoweeks-perspective_alpha_website_small.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
